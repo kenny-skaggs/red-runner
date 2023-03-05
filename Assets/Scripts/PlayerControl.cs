@@ -64,7 +64,13 @@ public class PlayerControl : MonoBehaviour
         if (m_IsGrounded) {
             m_Rigidbody.AddForce(Vector2.up * jumpForce);
             m_Animator.SetBool("IsJumping", true);
-            PlayAudio(jumpSound);
+            m_MusicGenerator.PlayNote(
+                m_MusicGenerator.InstrumentSet,
+                50.0f,
+                "Bells",
+                1,
+                10
+            );
         }
     }
 
@@ -73,6 +79,13 @@ public class PlayerControl : MonoBehaviour
         if (other.collider.CompareTag("Ground")) {
             m_IsGrounded = true;
             m_Animator.SetBool("IsInAir", false);
+            m_MusicGenerator.PlayNote(
+                m_MusicGenerator.InstrumentSet,
+                50.0f,
+                "Bells",
+                1,
+                11
+            );
         }
     }
 
@@ -88,10 +101,9 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.CompareTag("Coin")) {
             Destroy(other.gameObject);
-            // PlayAudio(coinSound);
             m_MusicGenerator.PlayNote(
                 m_MusicGenerator.InstrumentSet,
-                10.0f,
+                5.0f,
                 "Bells",
                 30,
                 9
