@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="124.50423mm"
+   height="117.88448mm"
+   viewBox="0 0 124.50423 117.88448"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="blur.svg"
+   inkscape:export-filename="/home/dev/Projects/Unity/RedRunner/Assets/Sprites/Vortex/blur.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="191.6322"
+     inkscape:cy="372.49854"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1408"
+       x="-0.11209705"
+       y="-0.11725234"
+       width="1.2250545"
+       height="1.2333101">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="18.2865"
+         id="feGaussianBlur1410" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.43902,-49.939648)">
+    <path
+       sodipodi:type="spiral"
+       style="mix-blend-mode:normal;fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:11.9622;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:143.546, 143.546;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1408)"
+       id="path991"
+       sodipodi:cx="191.27895"
+       sodipodi:cy="192.13684"
+       sodipodi:expansion="0.61000001"
+       sodipodi:revolution="4.5999999"
+       sodipodi:radius="233.761"
+       sodipodi:argument="-28.054081"
+       sodipodi:t0="0.07"
+       d="m 220.04022,156.03016 c 30.16286,12.04063 37.10119,50.50223 22.50208,76.94122 -20.0112,36.24027 -68.34564,44.11719 -102.20675,23.11939 C 98.33069,230.04291 89.603023,172.44332 116.07956,132.23573 147.28891,84.840848 213.4297,75.308487 259.35075,106.68004 311.809,142.51756 322.11033,216.60361 286.2588,267.79436 246.16583,325.04127 164.61714,336.08079 108.49415,296.06422 46.690559,251.99729 34.940101,163.38324 78.871985,102.59752 126.68948,36.435522 222.03549,23.998431 287.26144,71.641179 357.61016,123.02574 370.71205,224.81903 319.52994,294.29695 264.7329,368.68201 156.73909,382.42898 83.171441,327.85415 4.8832022,269.77743 -9.4909462,155.79967 48.349273,78.284227 109.58982,-3.7882233 229.35937,-18.773213 310.69696,42.22041 396.44647,106.52245 412.02732,231.91175 347.97983,316.9591 280.70763,406.28848 149.85387,422.4514 61.19809,355.43932 -31.622454,285.27922 -48.354692,149.10208 21.541289,56.929955 94.514673,-39.300356 235.88618,-56.590073 331.49049,16.116374 c 99.56502,75.718539 117.40118,222.165846 41.95149,321.124966 -8.29821,10.88385 -17.5577,21.03277 -27.63388,30.29489"
+       transform="matrix(0.23020727,0,0,0.22474141,60.775144,67.595945)" />
+  </g>
+</svg>

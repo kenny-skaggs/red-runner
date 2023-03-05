@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.64554mm"
+   height="116.48512mm"
+   viewBox="0 0 120.64554 116.48512"
+   version="1.1"
+   id="svg1805"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="lines.svg"
+   inkscape:export-filename="/home/dev/Projects/Unity/RedRunner/Assets/Sprites/Vortex/lines.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1807"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69664703"
+     inkscape:cx="312.20976"
+     inkscape:cy="368.1922"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1802" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.092828,-50.758719)">
+    <path
+       sodipodi:type="spiral"
+       style="opacity:1;mix-blend-mode:normal;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:17.2535;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:69.0142, 138.028;stroke-dashoffset:0"
+       id="path847"
+       sodipodi:cx="364.24472"
+       sodipodi:cy="379.07581"
+       sodipodi:expansion="0.61000001"
+       sodipodi:revolution="4.5999999"
+       sodipodi:radius="229.94202"
+       sodipodi:argument="-15.850219"
+       sodipodi:t0="0.07"
+       transform="matrix(0.26458333,0,0,0.26458333,-16.0631,10.84576)"
+       d="m 378.10247,335.83452 c 31.94194,0.55256 51.73981,33.50675 47.53514,62.91618 -5.7634,40.31189 -47.47059,64.41694 -85.93843,56.91621 -47.71954,-9.30469 -75.83899,-59.23659 -65.51309,-105.45265 12.17169,-54.47739 69.67854,-86.31635 122.85698,-73.48135 60.74878,14.66215 96.06651,79.20828 80.94934,138.79619 -16.90562,66.6375 -88.0579,105.23733 -153.63505,88.00993 C 252.1427,484.56792 210.4244,407.16537 229.62636,335.93398 250.52667,258.40245 333.88133,213.70433 410.49099,234.77044 493.1175,257.49106 540.67604,346.5436 517.83786,428.29857 493.38665,515.82781 398.85629,566.14256 312.15638,541.61059 219.89321,515.50448 166.91426,415.68926 193.07242,324.21936 220.76839,227.37209 325.69744,171.81099 421.78269,199.53618 523.07981,228.76525 581.14926,338.65512 551.90939,439.21765 521.19733,544.84337 406.48463,605.35433 301.56918,574.64653 191.72514,542.49618 128.83362,423.08599 160.96724,313.93044 c 33.5484,-113.96147 157.54158,-179.17766 270.83419,-145.6564 117.9861,34.90999 185.47546,163.38094 150.60139,280.71599 -3.83557,12.90491 -8.81164,25.46918 -14.84817,37.50273" />
+  </g>
+</svg>
