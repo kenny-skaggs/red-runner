@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg898"
+   width="170.66667"
+   height="170.66667"
+   viewBox="0 0 170.66667 170.66667"
+   sodipodi:docname="dungeon.svg"
+   inkscape:export-filename="/home/dev/Projects/Unity/RedRunner/Assets/Sprites/dungeon_ground.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs902" />
+  <sodipodi:namedview
+     id="namedview900"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:zoom="2.3642577"
+     inkscape:cx="-49.275507"
+     inkscape:cy="71.269725"
+     inkscape:window-width="1846"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g904">
+    <sodipodi:guide
+       position="-12.929781,170.56836"
+       orientation="0,-1"
+       id="guide988" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="1,0"
+       id="guide990" />
+    <sodipodi:guide
+       position="170.66667,0"
+       orientation="1,0"
+       id="guide992" />
+    <sodipodi:guide
+       position="170.66667,0"
+       orientation="0,-1"
+       id="guide994" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g904">
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.04965px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1.5258789e-5,64.743412 28.174468,102.63572 55.982078,70.122582 75.686437,121.32703 94.495887,69.015602 143.60608,67.089962 154.53542,120.52124 170.66669,77.607602 151.80046,51.771105 12.803292,59.234234 1.5258789e-5,64.784602"
+       id="path1991" />
+    <path
+       id="rect1020"
+       style="fill:#545454;fill-opacity:1;stroke-width:9.77914;stroke-linecap:round"
+       d="m 1.5258789e-5,48.052039 v 81.879911 c 0,0 9.992959641211,-43.600638 26.306640741211,-46.065788 13.989125,-2.11389 31.380859,31.351078 31.380859,31.351078 0,0 7.821583,-20.083648 15.929688,-20.260168 11.12621,-0.24222 22.83789,26.829928 22.83789,26.829928 0,0 12.769107,-43.735958 29.072267,-43.350098 10.24292,0.24243 17.18555,28.073728 17.18555,28.073728 0,0 9.69259,-18.300888 16.82813,-16.057498 10.14719,3.19024 11.0775,28.893508 11.125,36.913748 V 48.052039 Z" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:18.3478;stroke-linecap:round"
+       id="rect3215"
+       width="170.66652"
+       height="5.3399382"
+       x="1.5258789e-05"
+       y="42.712105" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:18.3478;stroke-linecap:round"
+       id="rect3221"
+       width="170.66667"
+       height="5.1813321"
+       x="1.5258789e-05"
+       y="37.530769" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:18.3478;stroke-linecap:round"
+       id="rect4590"
+       width="170.66666"
+       height="32.198257"
+       x="1.5258789e-05"
+       y="5.3325095" />
+    <rect
+       style="fill:#8c8c8c;fill-opacity:1;stroke:none;stroke-width:18.3478;stroke-linecap:round"
+       id="rect4592"
+       width="170.66666"
+       height="5.2342072"
+       x="1.5258789e-05"
+       y="0.098310001" />
+  </g>
+</svg>
