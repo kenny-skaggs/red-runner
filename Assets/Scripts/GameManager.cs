@@ -35,9 +35,11 @@ public class GameManager : MonoBehaviour
 
         HashSet<string> removedItemNames;
         m_SceneStateMap.TryGetValue(sceneName, out removedItemNames);
-        foreach (var name in removedItemNames) {
-            GameObject objectToRemove = GameObject.Find(name);
-            Destroy(objectToRemove);
+        if (removedItemNames != null) {
+            foreach (var name in removedItemNames) {
+                GameObject objectToRemove = GameObject.Find(name);
+                Destroy(objectToRemove);
+            }
         }
     }
 

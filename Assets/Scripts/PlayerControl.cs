@@ -12,20 +12,27 @@ public class PlayerControl : MonoBehaviour
     public float jumpForce = 5.0f;
     public AudioClip jumpSound;
     public AudioClip coinSound;
+    public float slopeDetectionLimit;
 
     private bool m_IsGrounded;
     private Vector2 m_Movement;
     private Vector2 m_MovementInput;
     
     Animator m_Animator;
+    CapsuleCollider2D m_Collider;
     GameManager m_GameManager;
     MusicGenerator m_MusicGenerator;
     Rigidbody2D m_Rigidbody;
     SpriteRenderer m_SpriteRenderer;
 
+    private float slopeDownAngle;
+    private Vector2 slopeNormalPerpendicular;
+    private bool isOnSlope;
+
     void Start()
     {
         m_Animator = GetComponent<Animator>();
+        m_Collider = GetComponent<CapsuleCollider2D>();
         m_Rigidbody = GetComponent<Rigidbody2D>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -37,7 +44,6 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-
         if (m_IsGrounded && m_Movement != m_MovementInput) {
             m_Movement = m_MovementInput;
         } else if (!m_IsGrounded && m_Rigidbody.velocity.y < 0) {
@@ -50,10 +56,19 @@ public class PlayerControl : MonoBehaviour
 
         if (m_Movement.x != 0) {
             m_Animator.SetBool("IsRunning", true);
-            transform.Translate(new Vector3(m_Movement.x * walkSpeed * Time.deltaTime, 0, 0));
+            // m_Rigidbody.velocity = new Vector2(
+            //     m_Movement.x * walkSpeed * -slopeNormalPerpendicular.x, 
+            //     m_Movement.x * walkSpeed * -slopeNormalPerpendicular.y
+            // );
+            m_Rigidbody.AddForce(-slopeNormalPerpendicular * walkSpeed);
         } else {
             m_Animator.SetBool("IsRunning", false);
         }
+    }
+
+    void FixedUpdate()
+    {
+        SlopeCheck();
     }
 
     void OnMove(InputValue value)
@@ -116,5 +131,29 @@ public class PlayerControl : MonoBehaviour
     void PlayAudio(AudioClip clip)
     {
         AudioSource.PlayClipAtPoint(clip, new Vector3(transform.position.x, transform.position.y, -5));
+    }
+
+    private void SlopeCheck()
+    {
+        Vector2 checkPosition = transform.position - new Vector3(0, m_Collider.size.y / 2);
+        SlopeCheckVertical(checkPosition); 
+    }
+
+    private void SlopeCheckHorizontal(Vector2 checkPosition)
+    {
+
+    }
+
+    private void SlopeCheckVertical(Vector2 checkPosition)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(checkPosition, Vector2.down, slopeDetectionLimit);
+
+        if (hit) {
+            slopeNormalPerpendicular = Vector2.Perpendicular(hit.normal).normalized;
+            slopeDownAngle = Vector2.Angle(hit.normal, Vector2.up);
+
+            Debug.DrawRay(hit.point, hit.normal, Color.blue);
+            Debug.DrawRay(hit.point, slopeNormalPerpendicular, Color.red);
+        }
     }
 }
